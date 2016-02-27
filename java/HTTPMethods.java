@@ -1,5 +1,3 @@
-package i9_everify_demo;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -19,7 +17,9 @@ import org.json.JSONObject;
 /**
  * 
  * This class includes various HTTP methods - GET, POST, PATCH. <br>
- * There are also methods to extract the JSON and payload.
+ * There are also methods to extract the JSON and payload. <br>
+ * 
+ * required libraries: org.apache.httpcomponents.httpclient and org.json.json
  * 
  * @author Varun Shah
  *
