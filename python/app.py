@@ -15,6 +15,6 @@ def get_locations(latitude, longitude):
 
 		return response.json()
 
-print get_locations(40.4995488,-74.4443186)
-# print get_locations(40.4995488, -74.4443186)['status']
+# print get_locations(40.4995488,-74.4443186)
+print get_locations(40.4995488, -74.4443186)['status']
 

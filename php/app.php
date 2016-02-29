@@ -16,17 +16,15 @@
 			]
 		]);
 
-		echo $GOOGLE_API_KEY;
-
 		return $response->getBody();
 
 	}
 
 	$locations = get_locations(40.4995488, -74.4443186, $GOOGLE_API_KEY);
-	echo $locations;
+	// echo $locations;
 
-	/*
+	
 	$response_json = json_decode($locations, true);
 	echo $response_json['status'];
-	*/
+	
 ?>
